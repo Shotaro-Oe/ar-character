@@ -23,11 +23,11 @@
     <a-entity mindar-image-target="targetIndex: 0">
       <a-image
         src="#character"
-        position="0 0.1 0"
+        position="0.8 0.1 0"
         width="1.2"
         height="1.2"
         animation__appear="property: scale; from: 0 0 0; to: 1 1 1; dur: 600; easing: easeOutBack; startEvents: targetFound"
-        animation__float="property: position; to: 0 0.18 0; dur: 1500; dir: alternate; loop: true; easing: easeInOutSine"
+        animation__move="property: position; from: 0.8 0.1 0; to: -0.8 0.1 0; dur: 4000; loop: true; easing: linear; delay: 600"
       >
       </a-image>
     </a-entity>
